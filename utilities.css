@@ -1,0 +1,62 @@
+.container{
+    max-width: 100%;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(karthikeya.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    /* background-attachment: fixed; */
+}
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+.py-2{
+    padding: 2rem 0rem;
+}
+.btn-main{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    &:hover{
+        background-color: yellow;
+    }
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.text-center{
+    text-align: center;
+}
+/* background */
+
+.background{
+    position:fixed;
+}
+.section-title{
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+/* line  */
+.bottom-line{
+    height: 2px;
+    width: 3rem;
+    background: yellow;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+
