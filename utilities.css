@@ -3,13 +3,25 @@
     padding: 0 1.5rem;
     margin: auto;
     overflow: hidden;
+    
+    
+    /* background-attachment: fixed; */
+}
+#header-home{
     background-image: url(karthikeya.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100vh;
     color: white;
-    /* background-attachment: fixed; */
+}
+#header-inner{
+    background-image: url(karthikeya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    border-bottom: 3px solid yellow;
+    /* padding: 0 1.5rem; */
 }
 h1,h2,h3,h4{
     text-transform: uppercase;

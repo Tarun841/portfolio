@@ -145,6 +145,48 @@ img{
     }
 }
 
+/* about */
+
+#about-a{
+    /* height: calc(100vh - 5rem - 10rem); */
+}
+.about-info{
+    padding: 0 1.5rem;
+
+    display: grid;
+    grid-template-areas: 
+    'bioimage bio bio'
+    'aw1 aw2 aw3';
+    grid-gap: 1.2rem;
+    .bio-img{
+        grid-area: bioimage;
+        height: 400px;
+        width: 300px;
+    }
+    .bio{
+        align-items: center;
+        grid-area: bio;
+        border-left: 3px solid yellow;
+        padding: 0.8rem;
+    }
+    .award-1{
+        grid-area: aw1;
+    }
+    .award-2{
+        grid-area: aw2;
+    }
+    .award-3{
+        grid-area: aw3;
+    }
+    .award-1 .fas,
+    .award-2 .fas,
+    .award-3 .fas
+     {
+        color: yellow;
+        margin: 1rem;
+    }
+}
+
 /* footer  */
 
 #main-footer{
